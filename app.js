@@ -19,7 +19,7 @@ console.log(validator.isURL('https://google.com'));
 // Using chalk api
 console.log(chalk.green('Success!'));
 console.log(chalk.red('Failure!'));
-console.log(chalk.redBright('Failure!'));
-console.log(chalk.yellow('Yellow!!'));
-console.log(chalk.magenta('Magenta!!'));
-console.log(chalk.magentaBright('Magenta Bright!!'));
+console.log(chalk.redBright.bgGreen.inverse.bold('Failure Inversed!'));
+console.log(chalk.yellow('Yellow!'));
+console.log(chalk.magenta('Magenta!'));
+console.log(chalk.magentaBright('Magenta Bright!'));

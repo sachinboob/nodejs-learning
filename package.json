@@ -18,6 +18,8 @@
   "homepage": "https://github.com/sachinboob/nodejs-learning#readme",
   "dependencies": {
     "chalk": "^2.4.1",
+    "export-to-csv": "^0.2.1",
+    "rss-parser": "^3.7.6",
     "validator": "^10.8.0"
   }
 }
